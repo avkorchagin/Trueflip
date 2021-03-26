@@ -1,0 +1,132 @@
+	html {
+		box-sizing: border-box;
+		overflow-x: hidden;
+		font-size: 10px;
+		line-height: 15px;
+	}
+
+	*,
+	::before,
+	::after {
+		box-sizing: inherit;
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		font-family: $font300;
+		font-size: 1.5rem;
+		line-height: 1.5em;
+		background: url('../img/Ellipses.png') $primColor top right no-repeat;
+		color: #fff;
+	}
+
+
+	a {
+		text-decoration: none;
+	}
+
+	button {
+		outline: none;
+		cursor: pointer;
+	}
+
+	.btn {
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+		padding: 0.5em 1em;
+		font: inherit;
+		color: inherit;
+		transition: all 0.5s;
+		// &:hover {
+
+		// }
+	}
+
+	.header {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 180px;
+	}
+
+	.promo {
+		position: relative;
+
+		&__inner {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		&__logo {
+			display: flex;
+			margin: 0 auto;
+			width: 180px;
+			height: 50px;
+		}
+
+		&__logo-img {
+			width: 100%;
+		}
+
+		&__medal {
+			display: inline-flex;
+			position: absolute;
+			right: -80px;
+			top: -150px;
+			width: 160px;
+			height: 200px;
+			background: url('../img/icons/medal.svg') no-repeat;
+		}
+
+		&__text {
+			display: inline-flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			flex-direction: column;
+			min-height: 330px;
+
+		}
+
+		&__title {
+			font-family: $font700;
+			font-size: 27px;
+			color: $secColor;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+		}
+
+		&__description {
+			font-family: $font900;
+			font-weight: 900;
+			font-size: 75px;
+			line-height: 120%;
+			max-width: 570px;
+		}
+
+		&__btn {
+			background: $green;
+			border-radius: 70px;
+			text-transform: uppercase;
+			padding: 25px 50px;
+			font-family: $font500;
+			font-size: 21px;
+			letter-spacing: 0.1em;
+		}
+
+
+
+		&__hero {
+			display: inline-flex;
+			position: relative;
+			width: 478px;
+			height: 720px;
+
+			&-img {
+				width: 100%;
+			}
+		}
+	}

@@ -1,0 +1,47 @@
+//Переменные
+$primColor: #3E2F7A;
+$secColor: #FFB800;
+$green: #3CB878;
+$font100: "Museo Sans Cyrl 100",
+Arial,
+sans-serif;
+$font300: "Museo Sans Cyrl 300",
+Arial,
+sans-serif;
+$font500: "Museo Sans Cyrl 500",
+Arial,
+sans-serif;
+$font700: "Museo Sans Cyrl 700",
+Arial,
+sans-serif;
+$font900: "Museo Sans Cyrl 900",
+Arial,
+sans-serif;
+
+
+$minwidth: 320px;
+$mw: 1260px;
+$md1: $mw+12px;
+$md2: 992.98px;
+$md3: 767.98px;
+$md4: 479.98px;
+
+//Сетка
+.container {
+	max-width: $mw;
+	margin: 0 auto;
+	width: 100%;
+
+	@media (max-width: $md1) {
+		max-width: 970px;
+	}
+
+	@media (max-width: $md2) {
+		max-width: 750px;
+	}
+
+	@media (max-width: $md3) {
+		max-width: 90%;
+		padding: 0 10px;
+	}
+}
