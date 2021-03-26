@@ -39,9 +39,10 @@
 		font: inherit;
 		color: inherit;
 		transition: all 0.5s;
-		// &:hover {
 
-		// }
+		&:hover {
+			background: #51CD8D;
+		}
 	}
 
 	.promo {
