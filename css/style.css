@@ -150,10 +150,7 @@ button {
 
 @media (max-width: 1025px) {
   .promo__hero {
-    position: fixed;
-    bottom: -1%;
     right: 3%;
-    width: 25vw;
   }
 }
 
