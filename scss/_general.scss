@@ -104,15 +104,12 @@
 			justify-content: space-between;
 			align-items: flex-start;
 			flex-direction: column;
-			min-height: 550px;
-			padding-top: 50px;
+			height: 80vh;
+			padding-top: 130px;
 
 		}
 
-		&__text {
-			flex-basis: 70%;
-
-		}
+		// &__text {}
 
 		&__title {
 			font-family: $font700;
@@ -148,7 +145,7 @@
 			&__items {
 				flex-wrap: wrap;
 				display: flex;
-				justify-content: space-between;
+				justify-content: space-evenly;
 				align-items: center;
 				max-width: 800px;
 				margin-top: 50px;

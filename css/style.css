@@ -181,13 +181,8 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 550px;
-  padding-top: 50px;
-}
-
-.promo__text {
-  -ms-flex-preferred-size: 70%;
-      flex-basis: 70%;
+  height: 80vh;
+  padding-top: 130px;
 }
 
 .promo__title {
@@ -228,9 +223,9 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
