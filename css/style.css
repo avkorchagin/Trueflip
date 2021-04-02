@@ -58,7 +58,7 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
   font-size: 10px;
   line-height: 15px;
 }
@@ -142,8 +142,8 @@ button {
 }
 
 .promo__hero {
-  position: fixed;
-  bottom: -1%;
+  position: absolute;
+  bottom: -60px;
   right: 12%;
   width: 25vw;
 }
@@ -258,8 +258,8 @@ button {
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding-left: 65px;
-  -ms-flex-preferred-size: 33%;
-      flex-basis: 33%;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
   background: url("../img/icons/Ellipse.svg") no-repeat;
   left: 0;
   -webkit-box-align: inherit;
@@ -267,6 +267,8 @@ button {
           align-items: inherit;
   height: inherit;
   height: 55px;
+  width: 255px;
+  margin-right: 10px;
 }
 
 .promo .promo__item.item1::before {
