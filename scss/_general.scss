@@ -80,7 +80,18 @@
 			position: fixed;
 			bottom: -1%;
 			right: 12%;
-			width: 25vw;
+
+			@media (max-width: 1272px) {
+				bottom: -4%;
+				transform: scale(0.9);
+			}
+
+			@media (max-width: 1240px) {
+				bottom: -7%;
+				transform: scale(0.8);
+				right: 10%;
+			}
+
 
 			&-img {
 				width: 100%;
@@ -139,6 +150,16 @@
 				height: 55px;
 				margin-top: 50px;
 				flex-wrap: wrap;
+
+				@media (max-width:1274px) {
+					max-width: 700px;
+
+				}
+
+				@media (max-width:1025px) {
+					max-width: 686px;
+
+				}
 			}
 
 			&__item {

@@ -145,7 +145,23 @@ button {
   position: fixed;
   bottom: -1%;
   right: 12%;
-  width: 25vw;
+}
+
+@media (max-width: 1272px) {
+  .promo__hero {
+    bottom: -4%;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@media (max-width: 1240px) {
+  .promo__hero {
+    bottom: -7%;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    right: 10%;
+  }
 }
 
 .promo__hero-img {
@@ -217,6 +233,18 @@ button {
   margin-top: 50px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+@media (max-width: 1274px) {
+  .promo .promo__items {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .promo .promo__items {
+    max-width: 686px;
+  }
 }
 
 .promo .promo__item {
